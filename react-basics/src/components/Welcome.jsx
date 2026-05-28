@@ -1,5 +1,5 @@
-function Welcome(){
-    return <h2>I am learning React</h2>
+function Welcome(props){
+    return <h2>Hello {props.name}</h2>
 }
 
 export default Welcome

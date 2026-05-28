@@ -1,4 +1,9 @@
-function Goal(){
-    return <p>I want 9-12 LPA job.</p>
+function Goal(props){
+    return (
+        <div>
+            <p>Company : {props.company}</p>
+            <p>Package : {props.package}</p>
+        </div>
+    )
 }
 export default Goal

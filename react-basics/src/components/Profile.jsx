@@ -1,4 +1,9 @@
-function Profile(){
-   return <p>I am an MCA student</p>
+function Profile(props){
+   return (
+    <div>
+        <p>Name: {props.name}</p>
+        <p>Role: {props.role}</p>
+    </div>
+   )
 }
 export default Profile
