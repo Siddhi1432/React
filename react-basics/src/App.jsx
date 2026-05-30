@@ -1,26 +1,11 @@
-import Welcome from "./components/Welcome";
-import Profile from "./components/Profile";
-import Goal from "./components/Goal";
-import Counter from "./components/Counter";
+import MoodTracker from "./components/MoodTracker";
 
 function App() {
   return (
     <div>
-      <h1>React State Demo </h1>
+      <h1>My First React App</h1>
 
-      <Welcome name="Siddhi" />
-
-      <Profile
-        name="Siddhi Mane"
-        role="Future Full Stack Developer"
-      />
-
-      <Goal
-        company="ThoughtWorks"
-        package="12 LPA"
-      />
-
-      <Counter />
+      <MoodTracker />
     </div>
   );
 }
