@@ -1,11 +1,14 @@
-import MoodTracker from "./components/MoodTracker";
+import ToDoList from "./components/ToDoList";
+import SkillList from "./components/SkillList";
 
 function App() {
   return (
     <div>
-      <h1>My First React App</h1>
+      <h1>React Lists Demo</h1>
 
-      <MoodTracker />
+      <ToDoList />
+
+      <SkillList/>
     </div>
   );
 }
